@@ -1,4 +1,5 @@
 *.zip
 *.hi
 *.txt
+*.o
 .DS_Store
