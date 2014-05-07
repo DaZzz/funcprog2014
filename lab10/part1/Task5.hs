@@ -5,4 +5,3 @@ import System.Environment
 main = do
   [c, n] <- getArgs
   print $ totalLength `fmap` (build (read c) (read n))
-
