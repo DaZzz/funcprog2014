@@ -2,6 +2,7 @@ import Data.Char
 import Data.Maybe
 import Data.List
 import System.Environment
+import Control.Monad.Reader
 import qualified Data.Map as M
 
 type Configuration = M.Map String Integer
